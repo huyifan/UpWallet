@@ -1,0 +1,208 @@
+html {
+    font-size: 200px;
+    height:100%;
+    overflow:hidden;
+}
+
+#root {
+    height: 13.9rem;
+}
+
+.App {
+    vertical-align: middle;
+    height: 9.1rem;
+    background-color: #f5f5f5;
+}
+.am-tab-bar-bar{
+    background-color: red;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 1.5rem;
+    padding: 20px;
+    color: white;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+#titleBar {
+    background-color: #1d1f41;
+
+}
+
+#tab-bar {
+    background-color: #1d1f41;
+}
+
+#main-grid {
+    background-color: #1d1f41;
+}
+
+.page-server-header {
+    background-color: #1d1f41;
+}
+
+.boxContainer {
+    text-align: center;
+}
+
+.boxContainer img {
+    width: .8rem;
+    height: .8rem;
+}
+
+.boxContainer div {
+    color: #fff;
+    margin-top: .2rem;
+    font-size: .34rem;
+    margin-bottom: .34rem;
+}
+
+.body .bottom {
+
+    margin-top: .15rem;
+    width: 100%;
+}
+
+/*.body .bottom div {*/
+/*height: 1.2rem;*/
+
+/*position: absolute;*/
+
+/*background-color: #fff;*/
+
+/*width: 100%;*/
+
+/*padding-top: .1rem;*/
+/*}*/
+
+.item-img {
+    float: left;
+    padding-top: .2rem;
+    width: .6rem;
+    height: .6rem;
+    margin-left: .3rem;
+}
+
+.item-text {
+    font-size: .34rem;
+    margin-left: .3rem;
+    width: 2rem;
+    height: .6rem;
+    float: left;
+}
+
+.item-text-right {
+    font-size: .34rem;
+    height: .6rem;
+    float: right;
+    color: #949494;
+    align-content: right;
+    margin-right: .5rem;
+}
+
+.item-img-right {
+    height: .6rem;
+    float: right;
+    color: #949494;
+    margin-top: .2rem;
+    margin-right: .3rem;
+}
+
+.body .boxContainer {
+    margin-top: 25%;
+
+}
+
+.body .boxContainer div {
+    color: #2a2a29;
+    margin-top: .2rem;
+    font-size: .34rem;
+    margin-bottom: .34rem;
+}
+
+.body .boxContainer img {
+    color: #2a2a29;
+    width: .9rem;
+    height: .9rem;
+}
+
+.body .guanggao {
+    width: 100%;
+    margin-top: .08rem;
+}
+
+#p-service-box-1 {
+    padding-top: .15rem;
+}
+
+#p-service-box-1 div {
+    color: #fff210;
+    font-size: .5rem;
+}
+
+#p-service-box-1 .text-light {
+    color: #949494;
+    font-size: .27rem;
+}
+
+#p-service-box-2 {
+    margin-top: 50px;
+}
+
+.view-line-div {
+    height: 1.2rem;
+
+    background-color: #fff;
+
+    width: 100%;
+
+    padding-top: .1rem;
+
+    margin-top: .03rem;
+}
+
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/*底部的tab*/
+.tab-item-img{
+    width: 0.55rem;
+    height: 0.55rem;
+    vertical-align: middle;
+}
+
+.tab-item-text{
+    font-size: 0.3rem;
+    line-height: 1;
+}
+
+/*我的银行卡*/
+
+.back-img{
+    width: .4rem;
+    height: .4rem;
+    float:left;
+}
+
+.back-title{
+    font-size: .36rem;
+    float: left;
+    vertical-align: middle;
+
+}

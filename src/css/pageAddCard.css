@@ -1,0 +1,150 @@
+.view-line{
+    height:.01rem;
+    background-color:#c1c4c5;
+    margin-top:.2rem;
+}
+
+.no-card-div{
+    text-align:center;
+    margin-top: 30%;
+}
+
+.no-card-div .blank-img{
+    height: 4.5rem;
+}
+
+.no-card-div .btn{
+    width: 100%;
+    width: 2rem;
+    margin: 0 auto;
+}
+
+.key-board-container{
+    background: #fff;
+    position:absolute;
+    width: 100%;
+    bottom:0px;
+}
+
+
+.key-board-bg{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(73, 73, 73, 0.6);
+    opacity: 0.5;
+    bottom: 0rem;
+}
+
+.key-board-invisible{
+    display: none;
+}
+.key-board .am-grid .am-flexbox{
+    height: 1.4rem;
+}
+.key-board .am-grid-icon{
+    display: none;
+}
+
+.key-board-title{
+    text-align: left;
+    padding: .1rem;
+    height: .7rem;
+    line-height:.7rem;
+    margin-bottom: .5rem;
+}
+.key-board-title img{
+    height: .4rem;
+    width: .4rem;
+    margin-top: .1rem;
+    margin-left: .1rem;
+    float: left;
+
+}
+.key-board-ic-back{
+    margin-top: .3rem;
+    height: .8rem;
+    width: .8rem;
+}
+
+.key-board-title-center-text{
+    font-size: .4rem;
+    margin-left: 36%;
+}
+.key-board-num{
+    font-size: .5rem;
+}
+.key-board-title-right-text {
+    font-size: .3rem;
+    color: #6d72ff;
+    margin-left: 26%;
+    margin-right: .1rem;
+}
+
+.key-board-cell{
+    height: 1.2rem;
+    width: 1.2rem;
+    border: solid .05rem #c1c4c5;
+    display: inline-block;
+    border-radius:.08rem;
+    margin-left: .01rem;
+
+}
+
+.key-board-cell img {
+    height: .3rem;
+    width: .3rem;
+    margin-top: 35%;
+}
+
+.key-board-input{
+    text-align: center;
+}
+
+.key-board-center-text{
+    font-size: .3rem;
+    color: #949494;
+    text-align: center;
+}
+
+
+.animated {
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.fadeInUp {
+    animation-name: fadeInUp;
+}
+
+@keyframes fadeOutDown {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+        display: none;
+    }
+}
+
+.fadeOutDown {
+    animation-name: fadeOutDown;
+}
+
+
+
+
